@@ -1,0 +1,381 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  background-color: #ffffff;
+  margin-top: 0px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+  height: 72px;
+}
+
+.button1 {
+  width: 40px;
+  height: 72px;
+  background: url(/img/basket.png);
+  border: none;
+  float: right;
+
+  right: 87px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.button2 {
+  border-radius: 4px;
+  width: 78px;
+  height: 40px;
+  background-color: #e0e0e0;
+  border: none;
+  color: black;
+  float: right;
+  /*position: absolute;*/
+  margin-top: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  background-color: #fff; /* Green */
+  color: black;
+}
+.button_logo {
+  width: 120px;
+  height: 13px;
+
+  background: url(/img/logo.svg);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+  padding-top: 40px;
+  border: 5px;
+}
+input {
+  width: 100%;
+  height: 24px;
+
+  border: 0;
+  border-bottom: 1px solid #626262;
+  font-size: 16px;
+
+  outline: none;
+}
+::placeholder {
+  color: #757575;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.rest {
+  padding-top: 40px;
+  font-size: 22px;
+  color: #1d1d1d;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.mcdonalds {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/mcdonalds.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+.dimsum {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/dimsum.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+
+.dvig {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/dvig.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+.na {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/na.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+
+.tochka {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/tochka.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+
+.cin {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/cin.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+
+.piz {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/pizz.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+
+.zu {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/zu.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+
+.bar {
+  width: 308px;
+  height: 256px;
+  background-image: url(/img/barbq.png);
+  border: none;
+  outline: 0;
+
+  color: black;
+  /*background-color: #000;*/
+
+  cursor: pointer;
+  padding-top: 1 px;
+  font-size: 16px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.etik {
+  padding-top: 18px;
+  padding-bottom: 40px;
+}
+.deng {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer {
+  /* margin-top: 60px;*/
+  padding-bottom: 52px;
+  background-color: #262626;
+}
+.button_footer {
+  margin-top: 56px;
+  width: 192px;
+  height: 22px;
+  background-image: url(/img/white-logo.svg);
+  background-color: #262626;
+  border: none;
+  cursor: pointer;
+}
+.line_footer1 {
+  height: 1px;
+  opacity: 40%;
+  margin-top: 40px;
+  border: none;
+  border-top: 1px solid #ffffff;
+}
+
+select.dropdown {
+  margin-bottom: 20px;
+  width: 227px;
+  height: 40px;
+  border: none;
+  background-color: #3b3b3b;
+  background-image: url(/img/world.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 16px;
+  text-align: center;
+  vertical-align: top;
+  /*text-align-last:center;*/
+  padding-left: 10px;
+  font-size: 13px;
+  color: white;
+}
+
+option,
+select {
+  text-align-last: center;
+}
+
+.tag {
+  font-size: 16px;
+  line-height: 19px;
+  color: #e0e0e0;
+}
+
+.row {
+  align-items: center;
+}
+
+footer .row {
+  align-items: flex-start;
+}
+
+.footer-menu {
+  list-style: none;
+  margin: 0;
+  margin-top: 16px;
+  padding: 0;
+  color: #e0e0e0;
+  padding-left: 400px;
+}
+
+li {
+  margin-bottom: 23px;
+  display: list-item;
+  color: #e0e0e0;
+  list-style-type: none;
+}
+.social_block {
+  margin-top: 33px;
+}
+
+.footer-container-2 {
+  margin-top: 30px;
+}
+.footer_menu a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.line_footer2 {
+  height: 1px;
+  opacity: 40%;
+  margin-top: 17px;
+  border: none;
+  border-top: 1px solid #ffffff;
+}
+.footer-container-3 {
+  margin-top: 43px;
+  text-align: center;
+}
+
+.footer-container-3 img {
+  margin-right: 40px;
+}
+
+.line_footer3 {
+  height: 1px;
+
+  opacity: 40%;
+  margin-top: 40px;
+  /* margin-bottom: 40px;*/
+  border: none;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-container-4 {
+  padding-top: 40px;
+}
+.footer-container-4 a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.button_top {
+  margin-top: 500px;
+  margin-right: 226px;
+  background-image: url(/img/Shape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80px;
+  height: 80px;
+  background-color: #59bd5a;
+  float: right;
+  border: none;
+  cursor: pointer;
+}
