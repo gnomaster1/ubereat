@@ -9,7 +9,9 @@ body {
   margin-top: 0px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
-
+.main {
+  display: block;
+}
 .nav {
   height: 72px;
 }
@@ -76,7 +78,7 @@ ul.nav_menu li {
   align-items: flex-start;
 }
 .card-container {
-  padding: 80px 654px 81px 80px;
+  padding: 80px 81px 80px;
   background-image: url(/img/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png);
   background-size: cover;
 }
@@ -85,12 +87,13 @@ ul.nav_menu li {
   background-color: white;
   padding: 0;
 }
+
 .title-card {
-  width: 388px;
-  height: 204px;
+  width: 350px;
+  height: 150px;
   background-color: #fff;
   padding: 38 48px;
-  margin-left: 250px;
+  margin: ;
   border: none;
 
   box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
